@@ -2,5 +2,5 @@
 
 # https://medium.com/learning-machine-learning/present-your-data-science-projects-with-jupyter-slides-75f20735eb0f
 # https://nbconvert.readthedocs.io/en/latest/usage.html#reveal-js-html-slideshow
-jupyter nbconvert --to index.ipynb --reveal-prefix reveal.js --post serve --config slides_config.py
+jupyter nbconvert --to slides index.ipynb --reveal-prefix reveal.js --post serve --config slides_config.py
  #--SlidesExporter.reveal_theme black --SlidesExporter.reveal_scroll True  --SlidesExporter.reveal_transition none
