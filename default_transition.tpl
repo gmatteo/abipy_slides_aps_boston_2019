@@ -15,7 +15,7 @@ Reveal.initialize({
     //controls: true,
 
     // Display a presentation progress bar
-    //progress: true,
+    progress: true,
 
     // Push each slide change to the browser history
     //history: false,
