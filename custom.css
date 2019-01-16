@@ -1,0 +1,35 @@
+/*Some css fixes to use night theme with IPython slides
+ * http://www.damian.oquanta.info/posts/customizing-your-ipython-slides.html
+*/
+
+/* body {
+    background-color: #111111;
+}
+.reveal p {
+    color: white;
+}
+
+
+.reveal p {
+    font-family: 'Raleway', sans-serif;
+    color: #2d28cc;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 40px;
+}
+*/
+
+/*
+.reveal ul, ol {
+    color: white;
+}
+div.output_area pre {
+    color: white;
+}
+div.output_stderr {
+    background: #F00;
+}
+.reveal table th, .reveal table td {
+    color: white;
+}
+*/

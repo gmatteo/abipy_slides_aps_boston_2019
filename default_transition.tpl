@@ -11,6 +11,7 @@
 
 Reveal.initialize({
 
+    // <link rel="stylesheet" href="reveal.js/css/theme/simple.css" id="theme">
     // Display controls in the bottom right corner
     //controls: true,
 
@@ -56,7 +57,7 @@ Reveal.initialize({
     //backgroundTransition: 'default', // default/linear/none
 
     // Theme
-    theme: 'blood' // available themes are in /css/theme
+    //theme: 'blood' // available themes are in /css/theme
 
 });
 
