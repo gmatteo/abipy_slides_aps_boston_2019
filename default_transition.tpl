@@ -7,6 +7,8 @@
 
 {{ super() }}
 
+
+
 <script>
 
 Reveal.initialize({
@@ -44,11 +46,14 @@ Reveal.initialize({
     // by using a data-autoslide attribute on your slides
     //autoSlide: 0,
 
+    slideNumber: true,
+
     // Enable slide navigation via mouse wheel
     //mouseWheel: false,
 
-    // Transition style
-    transition: 'concave', // default/cube/page/concave/zoom/linear/fade/none
+    // Transition style default/cube/page/concave/zoom/linear/fade/none
+    transition: 'concave', 
+    //transition: 'page', 
 
     // Transition speed
     //transitionSpeed: 'default', // default/fast/slow
@@ -58,8 +63,9 @@ Reveal.initialize({
 
     // Theme
     //theme: 'blood' // available themes are in /css/theme
-
 });
+
+<!-- link rel="stylesheet" href="reveal.js/css/theme/serif.css" id="theme" -->
 
 </script>
 
