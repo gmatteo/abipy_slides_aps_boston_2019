@@ -1,7 +1,7 @@
 <!--
  http://www.damian.oquanta.info/posts/change-the-ipython-slides-defaults-with-an-ipython-config-file.html
  -->
-{%- extends 'slides_reveal.tpl' -%}
+{%- extends 'my_slides_reveal.tpl' -%}
 
 {% block body %}
 
@@ -28,10 +28,10 @@ Reveal.initialize({
     //touch: true,
 
     // Enable the slide overview mode
-    //overview: true,
+    overview: true,
 
     // Vertical centering of slides
-    //center: true,
+    center: true,
 
     // Loop the presentation
     //loop: false,
@@ -63,7 +63,8 @@ Reveal.initialize({
     //theme: 'blood' // available themes are in /css/theme
 });
 
-<!-- link rel="stylesheet" href="reveal.js/css/theme/serif.css" id="theme" -->
+<!--link rel="stylesheet" href="reveal.js/css/theme/serif.css" id="theme"-->
+<!--link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme"-->
 
 </script>
 
