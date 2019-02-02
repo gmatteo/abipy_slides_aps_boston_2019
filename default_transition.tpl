@@ -7,8 +7,6 @@
 
 {{ super() }}
 
-
-
 <script>
 
 Reveal.initialize({
