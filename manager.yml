@@ -1,0 +1,20 @@
+qadapters:
+  # List of qadapters objects 
+  - priority: 1 
+    queue:
+      qtype: shell
+      qname: localhost
+    job:
+       mpi_runner: mpirun
+       pre_run: 
+           #- "source activate env3.6"
+           # abinit exec must be in $PATH
+           - export PATH=$HOME/git_repos/abinit/_build/src/98_main:$PATH
+    limits:
+       timelimit: 30:00
+       max_cores: 2
+    hardware:
+       num_nodes: 2
+       sockets_per_node: 1
+       cores_per_socket: 2
+       mem_per_node: 4Gb
